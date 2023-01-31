@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.SettingFragment"
+    android:background="@drawable/ic_his3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改密码"
+            android:textSize="26sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_pwd"
+            android:inputType="textPassword"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:layout_marginTop="20dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_loginway"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pwd"
+            android:layout_marginTop="70dp"
+            android:text="自动登录"
+            android:textSize="26sp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb"
+            android:layout_below="@+id/tv_pwd"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentRight="true">
+
+        </CheckBox>
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="确认修改">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_loginway"
+            android:layout_marginTop="70dp"
+            android:text="修改默认城市"
+            android:textSize="26sp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_city"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_loginway"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@id/tv_city"
+            android:hint="填写城市名称">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_defaultCity"
+            android:layout_below="@+id/tv_city"
+            android:layout_marginTop="70dp"
+            android:text=""
+            android:textSize="26sp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_his"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_defaultCity"
+            android:layout_marginTop="70dp"
+            android:text="历史显示个数"
+            android:textSize="26sp"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_his"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_defaultCity"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="70dp"
+            android:hint="最大值为10"
+            android:textAlignment="center">
+
+        </EditText>
+    </RelativeLayout>
+
+</FrameLayout>

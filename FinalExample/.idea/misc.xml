@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/drawable/btn_shape.xml" value="0.22083333333333333" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/drawable/et_shape.xml" value="0.3764102564102564" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/drawable/selected_menu_color.xml" value="0.3764102564102564" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13152610441767068" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/activity_setting.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_history.xml" value="0.28306159420289856" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_map.xml" value="0.28306159420289856" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_setting.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_weather.xml" value="0.28306159420289856" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_weather1.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/fragment_weather2.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/item_futrue.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/item_history.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/item_weatherinfo.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/layout/title_bar.xml" value="0.2046875" />
+        <entry key="..\:/AndroidStudioProjects/FinalExample/app/src/main/res/menu/tab_menu.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

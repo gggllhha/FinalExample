@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_map"
+        android:icon="@drawable/ic_map"
+        android:title="地图" />
+
+    <item
+        android:id="@+id/tab_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="天气" />
+
+    <item
+        android:id="@+id/tab_history"
+        android:icon="@drawable/ic_history"
+        android:title="历史" />
+
+    <item
+        android:id="@+id/tab_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="设置" />
+</menu>

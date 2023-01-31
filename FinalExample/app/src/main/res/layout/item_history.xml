@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_his_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="22sp"
+        android:text="">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_his_date"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/tv_his_city"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:text="">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_his_info"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginRight="20dp">
+
+    </TextView>
+</RelativeLayout>
